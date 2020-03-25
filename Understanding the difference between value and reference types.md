@@ -75,8 +75,11 @@ What if you want to pass a value type by reference? No worries, C# has a special
 public static void Main(string[] args)
 {
     int number = 1;
+    BigInteger bigNumber = 24243243243;
+
     ChangeValueByRef(ref number);
     Console.WriteLine(number); // prints 1001
+    Console.WriteLine(Bignumber)
 }
 
 private static void ChangeValueByRef(ref int valueType)
